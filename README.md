@@ -1,2 +1,2 @@
-# responsive-week-3
+# responsive-week3
 Created with CodeSandbox
