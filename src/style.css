@@ -1,3 +1,5 @@
+/** @format */
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -81,8 +83,37 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 400px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 19px;
+    margin: 20px;
+  }
+  p {
+    text-align: center;
+  }
+
+  .apps {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 30px;
+    padding: 20px 10px;
+  }
+  .weather,
+  .yoga,
+  .yogurt {
+    margin-bottom: 20px;
+  }
 }
